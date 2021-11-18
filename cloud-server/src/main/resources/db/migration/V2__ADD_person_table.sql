@@ -1,0 +1,1 @@
+INSERT INTO cloud.PERSON (NAME,PASSWORD) VALUES ('test','test');
