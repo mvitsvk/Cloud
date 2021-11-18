@@ -1,0 +1,3 @@
+DEBUG 2021-11-15 20:46:42 [main] su.mvitsvk.server.service.impl.SqlMariadb (SqlMariadb.java:29) - AuthFind
+DEBUG 2021-11-15 20:46:43 [main] su.mvitsvk.server.service.impl.SqlMariadb (SqlMariadb.java:40) - Find test
+INFO  2021-11-15 20:46:43 [main] su.mvitsvk.server.service.impl.SqlMariadb (SqlMariadb.java:49) - SQL close

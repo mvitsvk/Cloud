@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" prefHeight="600.0" prefWidth="800.0" onKeyReleased="#fxKeyReleased"  xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.mvitsvk.client.controler.MainController">
+   <children>
+       <Label layoutX="10.0" layoutY="10.0" text="local disk" />
+       <Label layoutX="410.0" layoutY="10.0" text="remote disk" />
+
+       <ListView fx:id="fxlocal" layoutX="10.0" layoutY="30.0" minHeight="0.0" minWidth="0.0" onMousePressed="#fxLocalMousePressed" onKeyPressed="#fxLocalEvent" prefHeight="510.0" prefWidth="380.0" />
+       <ListView fx:id="fxremote" layoutX="410.0" layoutY="30.0" minHeight="0.0" minWidth="0.0" onMousePressed="#fxRemoteMousePressed" onKeyPressed="#fxRemoteEvent" prefHeight="510.0" prefWidth="380.0" />
+
+       <Button fx:id="fxcopy" layoutX="10.0" layoutY="560.0" mnemonicParsing="false" onAction="#fxCopyButton" prefWidth="120" text="COPY (F5)" />
+       <Button fx:id="fxmove" layoutX="140.0" layoutY="560.0" mnemonicParsing="false" onAction="#fxMoveButton" prefWidth="120" text="MOVE (F6)" />
+       <Button fx:id="fxrename" layoutX="270.0" layoutY="560.0" mnemonicParsing="false" onAction="#fxRenameButton" prefWidth="120" text="RENAME (F7)" />
+       <Button fx:id="fxdelete" layoutX="400.0" layoutY="560.0" mnemonicParsing="false" onAction="#fxDeleteButton" prefWidth="120" text="DELETE (F8)" />
+       <Button fx:id="fxcondiscon" layoutX="530.0" layoutY="560.0" mnemonicParsing="false" onAction="#fxConDiscon" prefWidth="150" text="CONNECT (F10)" />
+   </children>
+</Pane>
